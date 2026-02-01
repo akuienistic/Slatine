@@ -14,6 +14,7 @@ import {
   Phone,
   Instagram,
   Twitter,
+  CheckCircle,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -81,6 +82,7 @@ const Contact = () => {
     toast({
       title: "Message Sent!",
       description: "Thank you for reaching out. Wekou Recordz will get back to you soon.",
+      icon: <CheckCircle className="h-5 w-5 text-green-500" />,
     });
 
     setFormData({ name: "", email: "", subject: "", message: "" });
@@ -102,7 +104,8 @@ const Contact = () => {
             Let's <span className="text-gradient">Create Together</span>
           </h2>
           <p className="font-body text-muted-foreground max-w-xl mx-auto text-sm">
-            For bookings, collaborations, or studio inquiries — reach out through any of these platforms or send a direct message.
+            For bookings, collaborations, or studio inquiries — reach out through any of these platforms or send a
+            direct message.
           </p>
         </motion.div>
 
@@ -245,7 +248,8 @@ const Contact = () => {
             >
               <h3 className="font-heading text-base font-bold text-foreground mb-1">Wekou Recordz Label</h3>
               <p className="text-muted-foreground text-xs mb-2">
-                Ready to create the next hit? Whether you're an artist, producer, or looking for studio time — let's talk.
+                Ready to create the next hit? Whether you're an artist, producer, or looking for studio time — let's
+                talk.
               </p>
               <a
                 href="mailto:studio@wekourecordz.com"

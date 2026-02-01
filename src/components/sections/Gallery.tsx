@@ -4,7 +4,7 @@ import { useRef, useState } from 'react';
 import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import kedePiouPoster from '@/assets/kedepiou-poster.jpg';
-import heroBg from '@/assets/hero-bg.jpg';
+import slatinePro from '@/assets/slatine-pro.jpg';
 
 const galleryImages = [
   {
@@ -13,7 +13,7 @@ const galleryImages = [
     caption: 'Kedepiou single artwork with Alijoma',
   },
   {
-    src: heroBg,
+    src: slatinePro,
     alt: 'Slatine Pro in the studio',
     caption: 'Behind the scenes at Wekou Studio',
   },

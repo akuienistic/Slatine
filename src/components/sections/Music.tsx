@@ -143,7 +143,7 @@ const MusicSection = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-primary-foreground font-semibold gap-2"
-                onClick={() => window.open("https://www.youtube.com/watch?v=7oeZIx1U3DQ", "_blank")}
+                onClick={() => window.open("https://www.youtube.com/watch?v=XX5qF5dr1cY", "_blank")}
               >
                 <Play className="h-5 w-5" />
                 Listen to Mathira Beatz
@@ -171,8 +171,9 @@ const MusicSection = () => {
                       className="w-full h-full object-cover"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        target.parentElement!.innerHTML = '<div class="w-24 h-24 rounded-full bg-gradient-to-br from-primary/50 to-accent/50 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-foreground"><circle cx="5.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="15.5" r="2.5"/><path d="M8 17V5l12-2v12"/></svg></div>';
+                        target.style.display = "none";
+                        target.parentElement!.innerHTML =
+                          '<div class="w-24 h-24 rounded-full bg-gradient-to-br from-primary/50 to-accent/50 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-foreground"><circle cx="5.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="15.5" r="2.5"/><path d="M8 17V5l12-2v12"/></svg></div>';
                       }}
                     />
                     {/* Play overlay */}
