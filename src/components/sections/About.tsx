@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Music, Mic2, Video, Sparkles } from 'lucide-react';
+import slatineProImg from '@/assets/slatine-pro.jpg';
 
 const skills = [
   { name: 'Music Production', icon: Music, description: 'Creating unique beats and sounds' },
@@ -32,20 +33,12 @@ const About = () => {
               <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-accent/30 rounded-2xl" />
               
               {/* Main content box */}
-              <div className="relative w-full h-full bg-gradient-to-br from-muted to-card rounded-2xl overflow-hidden flex items-center justify-center">
-                <div className="text-center p-8">
-                  <motion.div
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                    className="w-32 h-32 mx-auto mb-6 rounded-full border-4 border-dashed border-primary/50 flex items-center justify-center"
-                  >
-                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                      <span className="font-heading text-4xl font-bold text-primary-foreground">SP</span>
-                    </div>
-                  </motion.div>
-                  <h3 className="font-heading text-2xl font-bold text-foreground mb-2">Samuel Duk</h3>
-                  <p className="text-primary font-medium">aka Slatine Pro (Wakou)</p>
-                </div>
+              <div className="relative w-full h-full rounded-2xl overflow-hidden">
+                <img
+                  src={slatineProImg}
+                  alt="Slatine Pro"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>

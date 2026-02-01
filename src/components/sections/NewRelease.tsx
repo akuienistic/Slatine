@@ -60,7 +60,7 @@ const NewRelease = () => {
                   <Button
                     size="lg"
                     className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-20 h-20 glow-primary"
-                    onClick={() => window.open('https://www.youtube.com/@slatinepro', '_blank')}
+                    onClick={() => window.open('https://www.youtube.com/watch?v=RV_FX8wc4wM', '_blank')}
                   >
                     <Play className="h-10 w-10" />
                   </Button>
@@ -116,7 +116,7 @@ const NewRelease = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-primary-foreground font-semibold gap-2 glow-primary"
-                onClick={() => window.open('https://www.youtube.com/@slatinepro', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=RV_FX8wc4wM', '_blank')}
               >
                 <Play className="h-5 w-5" />
                 Play Now

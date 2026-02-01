@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Play, Music2, Youtube, Headphones } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroBg from '@/assets/hero-bg.jpg';
+import heroBg from '@/assets/slatine-studio.jpg';
 
 const Hero = () => {
   return (
