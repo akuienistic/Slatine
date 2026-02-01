@@ -53,7 +53,7 @@ const About = () => {
               About Me
             </span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-              The Sound of <span className="text-gradient">South Sudan</span>
+              Meet <span className="text-gradient">Slatine Pro</span>
             </h2>
             <p className="font-body text-muted-foreground mb-6 leading-relaxed">
               Meet Samuel Duk, professionally known as <span className="text-foreground font-semibold">Slatine Pro</span> or <span className="text-foreground font-semibold">Wakou</span>. As one of the youngest and most innovative music producers in Juba, South Sudan, I've dedicated my craft to creating sounds that honor our rich cultural heritage while pushing musical boundaries.

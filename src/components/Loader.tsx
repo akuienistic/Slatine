@@ -76,7 +76,7 @@ const Loader = () => {
               animate={{ opacity: [0.5, 1, 0.5] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             >
-              Loading Experience...
+              CEO at Wekou Records.
             </motion.p>
           </motion.div>
 
