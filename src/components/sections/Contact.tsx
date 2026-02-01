@@ -253,7 +253,7 @@ const Contact = () => {
               </p>
               <a
                 href="mailto:studio@wekourecordz.com"
-                className="inline-flex items-center gap-1 text-primary hover:text-primary/80 font-semibold text-xs transition-colors"
+                className="inline-flex items-center gap-1 text-primary hover:text-primary/80 font-semibold text-xs transition-colors no-underline"
               >
                 <Mail className="h-3 w-3" />
                 studio@wekourecordz.com

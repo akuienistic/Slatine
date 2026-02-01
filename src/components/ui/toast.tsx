@@ -56,7 +56,10 @@ const Toast = React.forwardRef<
 >(({ className, variant, icon, ...props }, ref) => {
   return (
     <ToastPrimitives.Root ref={ref} className={cn(toastVariants({ variant }), className)} {...props}>
-      {icon && <span className="flex-shrink-0">{icon}</span>}
+      <div className="flex items-start gap-3">
+        {icon && <span className="flex-shrink-0 mt-0.5">{icon}</span>}
+        <div className="flex-1">{props.children}</div>
+      </div>
     </ToastPrimitives.Root>
   );
 });
